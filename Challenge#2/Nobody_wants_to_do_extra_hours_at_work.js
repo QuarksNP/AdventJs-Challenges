@@ -18,8 +18,6 @@ function countHours(year, holidays) {
 
   let workingDay = getDays.filter(day => day !== "Sunday" && day !== "Saturday")
 
-  console.log(getDays);
-
   let hours = workingDay.length * 2;
 
   return hours;
